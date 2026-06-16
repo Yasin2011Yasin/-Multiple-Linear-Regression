@@ -55,64 +55,6 @@ Predict `price_million_toman` from 7 input features using multiple regression mo
 
 ---
 
-## 🔧 Installation
-
-```bash
-git clone https://github.com/your-username/regression-project.git
-cd regression-project
-pip install -r requirements.txt
-```
-
----
-
-## 🚀 How to Run
-
-```bash
-# 1. Preprocess the data
-python src/preprocess.py
-
-# 2. Train the model
-python src/train.py
-
-# 3. Evaluate the model
-python src/evaluate.py
-```
-
----
-
-## 🧠 Models Used
-
-| Model | Library |
-|---|---|
-| Linear Regression | `scikit-learn` |
-| Ridge / Lasso | `scikit-learn` |
-| Random Forest Regressor | `scikit-learn` |
-| XGBoost Regressor | `xgboost` |
-
----
-
-## 📈 Evaluation Metrics
-
-| Metric | Description |
-|---|---|
-| **MAE** | Mean Absolute Error (million Toman) |
-| **RMSE** | Root Mean Squared Error |
-| **R²** | Coefficient of Determination (closer to 1 is better) |
-
----
-
-## 📊 Results
-
-> *(Fill in after training)*
-
-| Model | MAE | RMSE | R² |
-|---|---|---|---|
-| Linear Regression | — | — | — |
-| Ridge | — | — | — |
-| Random Forest | — | — | — |
-| XGBoost | — | — | — |
-
----
 
 ## 📦 Requirements
 
@@ -125,16 +67,3 @@ matplotlib
 seaborn
 jupyter
 ```
-
----
-
-## 👤 Author
-
-**[Your Name]**  
-[GitHub](https://github.com/your-username) · [LinkedIn](https://linkedin.com/in/your-profile)
-
----
-
-## 📄 License
-
-MIT License
